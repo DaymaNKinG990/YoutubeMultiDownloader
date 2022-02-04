@@ -102,7 +102,6 @@ class YouTubeMultiDownloader(QMainWindow):
             self.__disable_buttons()
             self.__get_urls_from_form()
             self.__run_threads()
-            print(self.thread_pool.activeThreadCount())
 
 
 if __name__ == "__main__":
